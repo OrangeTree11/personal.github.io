@@ -1,0 +1,31 @@
+body {
+    align-items: center;
+    background: url('https://wallpaperaccess.com/full/4243307.jpg'); 
+    background-size: cover;
+    opacity: 0.95;
+}
+#main-holder {
+    width: 30%;
+    height: 500px;
+    display: grid;
+    justify-items: center;
+    margin-top: 53px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 0cm;
+}
+h1 {
+    color: rgb(40, 146, 165);
+}
+.login-form-field {
+    margin-bottom:10px;
+}
+#login-form-submit {
+    width:100%;
+    padding: 7px;
+    color: white;
+    background-color: rgb(40, 146, 165);
+    border: 0cm;
+}

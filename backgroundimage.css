@@ -1,0 +1,138 @@
+#container {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    opacity: 0.7;
+    margin-top: 58px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 240px;
+    bottom: 120px;
+}
+nav ul {
+    display:inline-block;
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+.m:link, .m:visited {
+    color:white;
+    text-decoration: none;
+    background-color:rgb(42, 149, 168);
+}
+.m:hover {
+    background-color:rgb(41, 103, 120);
+    color:white;
+}
+.m {
+    display:block;
+    padding:10px 20px;
+}
+.logo {
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 100px;
+}
+p {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.master {
+    display: block;
+    margin-top: 145px;
+    background: url('https://64.media.tumblr.com/479993b47dac4da2585fadee175853f5/tumblr_piomm74GmC1wsdwzvo1_1280.png') no-repeat center/100%;
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.quote {
+    display: block;
+    margin-bottom: 5px;
+    background: url('https://64.media.tumblr.com/479993b47dac4da2585fadee175853f5/tumblr_piomm74GmC1wsdwzvo1_1280.png') no-repeat center/100%;
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.icons {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 1px;
+}
+.box1 {
+    display: block;
+    text-align: center;
+    margin-top: 175px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dposter {
+    display: inline-block;
+    filter: brightness(55%);
+    opacity: 0.85;
+    border-radius: 40px;
+} 
+.dposter:hover {
+    filter: brightness(100%);
+    opacity: 1;
+    position: relative;
+}
+.cposter {
+    filter: brightness(55%);
+    opacity: 0.85;
+    border-radius: 40px;
+}
+.cposter:hover {
+    filter: brightness(100%);
+    opacity: 1;
+}
+/* .posters {
+    display: block;
+    text-align: center;
+    filter:brightness(55%);
+    margin-top: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.85;
+}
+.posters:hover {
+    filter: brightness(100%);
+    opacity: 1;
+} */
+.iposter {
+    display: block !important;
+    text-align: center !important;
+    filter:brightness(55%);
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-bottom: 200px !important;
+    opacity: 0.85;
+    border-radius: 40px;
+}
+.iposter:hover {
+    filter: brightness(100%);
+    opacity: 1;
+}
+
+
+
+/* margin-top: 175px;
+    margin-left: 48px;
+
+    cposter는 left 마진값은 제외 */
